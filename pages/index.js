@@ -1,8 +1,8 @@
-import Content from "@/components/Content"
+import Content from "@/components/Content";
 
 const style = {
-    wrapper: `bg-gray-100 min-h-screen`
-}
+    wrapper: `bg-gray-100 min-h-screen`,
+};
 
 export default function Home() {
     return (
@@ -11,5 +11,5 @@ export default function Home() {
                 <Content />
             </main>
         </>
-    )
+    );
 }
