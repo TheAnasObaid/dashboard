@@ -1,4 +1,5 @@
 import Content from "@/components/Content";
+import RecentOrders from "@/components/RecentOrders";
 import TopCard from "@/components/TopCard";
 
 const style = {
@@ -11,6 +12,7 @@ export default function Home() {
             <main className={style.wrapper}>
                 <Content />
                 <TopCard />
+                <RecentOrders />
             </main>
         </>
     );
